@@ -22,7 +22,8 @@ module Rack
               host,
               port,
               body_hash || '',
-              ext || ''
+              ext || '',
+              nil
             ]
             arr.join("\n")
           end
